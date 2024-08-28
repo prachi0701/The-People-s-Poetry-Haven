@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0
+    ;
+    box-sizing: border-box;
+}
+html{
+  
+    width: 100%;
+    height: 100%;
+    background-color: #174f3e;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url(pexels-nothing-ahead-6924268.jpg);
+  
+  
+}
+
+body{
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='960' preserveAspectRatio='none' viewBox='0 0 1440 960'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3cpath d='M0 189.09C30.07 93.1 8.88 52.24 75.18 0C128.88 -42.31 157.59 0 240 0C360 0 360 0 480 0C574.15 0 623.16 -52.68 668.31 0C726.01 67.32 668.37 121.6 685.71 240C694.22 298.07 674.79 334.32 720 352.94C811.93 390.79 853.28 386.42 960 352.94C1033.28 329.95 1060.33 311.64 1080 240C1108.79 135.17 1019.27 75.31 1056.92 0C1079.27 -44.69 1128.46 0 1200 0C1320 0 1380 -60 1440 0C1500 60 1440 120 1440 240C1440 360 1440 360 1440 480C1440 600 1440 600 1440 720C1440 840 1500 900 1440 960C1380 1020 1320 960 1200 960C1080 960 1080 960 960 960C840 960 840 960 720 960C646.15 960 591.52 1005.21 572.31 960C540.52 885.21 646.39 814.03 618 720C600.24 661.17 551.74 654.29 480 654.29C367.74 654.29 269.44 649.67 250 720C227.19 802.52 398.71 882.78 395.49 960C393.71 1002.78 317.75 960 240 960C120 960 60 1020 0 960C-60 900 0 840 0 720C0 632.61 -42.49 603.01 0 545.22C45.74 483.01 176.47 533.35 176.47 480C176.47 406.99 73.29 392.18 0 292.5C-14.94 272.18 0 266.25 0 240C0 214.55 -7.52 213.1 0 189.09' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M960 588C903.94 588 824.62 652.22 824.62 720C824.62 791.55 904.75 866.67 960 866.67C1004.25 866.67 1023.61 792.7 1023.61 720C1023.61 653.37 1003.44 588 960 588' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M166.15 240C134.29 129.83 120.8 86.68 147.47 0C157.72 -33.32 193.74 0 240 0C360 0 360 0 480 0C528 0 561.92 -34.28 576 0C611.2 85.72 561.37 122.29 578.57 240C596.44 362.29 673.78 383.89 646.15 480C624.5 555.32 563.08 582.86 480 582.86C396.92 582.86 376.95 549.11 313.85 480C256.95 417.68 285.65 394.17 240 320C211.8 274.17 180.56 289.83 166.15 240' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1200 96C1161.94 71.7 1172.31 37.58 1172.31 0C1172.31 -10.42 1186.15 0 1200 0C1320 0 1369.91 -49.91 1440 0C1489.91 35.54 1488.56 151.49 1440 170.91C1368.56 199.49 1295.78 157.15 1200 96' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1146.67 480C1158.08 448.9 1167.61 445.5 1200 436.36C1314.28 404.12 1350.47 380.96 1440 397.24C1470.47 402.78 1440 438.62 1440 480C1440 600 1440 600 1440 720C1440 806.51 1490.23 859.54 1440 893.02C1370.23 939.54 1295.89 928.22 1200 880C1123.84 841.71 1107.57 807.52 1095.9 720C1080.9 607.52 1106.03 590.72 1146.67 480' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 610.43C48.24 610.43 86.95 654.88 152.73 720C206.95 773.67 197.36 783.34 240 848C276.49 903.34 310.99 923.53 310.99 960C310.99 979.53 275.5 960 240 960C120 960 60 1020 0 960C-60 900 0 840 0 720C0 665.21 -28.12 610.43 0 610.43' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M664.62 960C664.62 901.31 677.09 803.48 720 803.48C774.01 803.48 858.46 912.93 858.46 960C858.46 991.19 789.23 960 720 960C692.31 960 664.62 979.57 664.62 960' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M240 70C209.71 60.69 219.76 27.39 219.76 0C219.76 -7.61 229.88 0 240 0C360 0 360 0 480 0C481.85 0 483.69 -1.76 483.69 0C483.69 38.24 510.47 71.25 480 80C388.62 106.25 339.83 100.69 240 70' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1440 80C1397.85 80 1311.22 21.63 1311.22 0C1311.22 -18.37 1400.28 -24.67 1440 0C1464.67 15.33 1462.24 80 1440 80' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M429.23 480C429.23 388.77 454.62 276.92 480 276.92C505.38 276.92 530.77 388.77 530.77 480C530.77 506.02 505.38 511.43 480 511.43C454.62 511.43 429.23 506.02 429.23 480' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 675.65C19.53 675.65 61.82 688.72 61.82 720C61.82 789.35 16.01 876.92 0 876.92C-14.9 876.92 0 798.46 0 720C0 697.83 -11.38 675.65 0 675.65' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1168.19 720C1168.19 682.67 1164.81 651.23 1200 642.35C1300.72 616.94 1346.65 621.23 1440 651.43C1466.65 660.05 1440 685.71 1440 720C1440 736.74 1454.67 750.5 1440 753.49C1334.67 774.95 1309.38 782.37 1200 768.89C1173.47 765.62 1168.19 745.94 1168.19 720' stroke='rgba(255%2c 255%2c 255%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='960' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: repeat;
+
+      
+}
+header{
+    background: #638b8056;
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 60px;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 50px #22a17b4c ;
+   
+}
+
+header img{
+  height: 50px;
+  width: 70px;
+  border-radius: 2px;
+object-fit:cover ;
+ 
+}
+header h3{
+  font-family:'Poppins',serif;
+  color: azure;
+float: right;
+line-height: 50px;
+padding-right: 20px;
+
+}
+.logo
+{
+ position: absolute;
+ bottom:0px;
+ left: 50%;
+ transform: translate(-50%,-20px);
+ 
+}
+.PoetryCenter{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+  }
+  ::-webkit-scrollbar{
+    width: .5em;
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb{
+    width: .5em;
+    background: #174f3e;
+  }
+  .Poetry {
+    text-align: center;
+    width: 350px;
+    height: 800px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    font-family: 'Noto Nastaliq Urdu', serif;
+    color: white;
+    z-index: 2;
+  }
+
+  @keyframes Enter {
+    100% {
+      transform: scale(1);
+      
+    }
+  
+    0% {
+      transform: scale(.5);
+     
+    }
+  }
+    
+  .Poetry a {
+    text-decoration: none;
+  }
+  
+  .Image1 {
+    width: 100%;
+  }
+  .Poem01{
+    margin-top: 6%;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width:60px; 
+    height: 60px;
+    border-radius: 50%;
+    
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+   right: -10px;
+  
+  }
+  .prev{
+    left: -10px;
+  }
+  ::selection{
+    background-color: #174f3e;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    color: #000;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @media(max-width:350px)
+  {
+    .PoetryCenter{
+      transform: scale(.8);
+    }
+  }
+  @media(max-width:280px)
+  {
+    .PoetryCenter{
+      transform: scale(.7);
+    }
+  }
+  .Poem001{
+    position: relative;
+    top: -20px;
+    transform: scale(.9);
+  }
+  
+  @media(max-width:600px)
+  {
+    header{
+      position: relative;
+      top: 3.8%;
+    }
+    .PoetryCenter{
+      transform: scale(.8);
+    }
+  
+  }
+  @media(max-width:500px)
+  {
+
+     .cardcontent{
+      position: relative;
+      top: 10em;
+     }
+   
+  }
+  
+  @media(max-width:350px){
+     .cardcontent{
+      position: relative;
+      top: 10em;
+     }
+     
+  }

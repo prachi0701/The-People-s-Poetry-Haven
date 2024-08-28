@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/Poetry Hub.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,600&family=Poiret+One&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,600&family=Poiret+One&family=Poppins:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/icon (2).png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,600&family=Poiret+One&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+  
+<body>
+    
+
+<Header>
+    <div class="Navbar">
+        <div class="menu">
+            <ul>
+
+                <li> <a href="">About</a></li>
+                <li> <a href="assets/poets.html">Poets</a></li>
+                <li> <a href="">Home</a></li>
+            </ul>
+        </div>
+        
+</Header>
+<footer>
+    <div class="submitdis">
+        <div class="submit">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+
+        </div>
+    </div>
+    </div>
+</footer>
+<main>
+    <section>
+  <!-- Login and sign up from -->
+        <div class="main">
+
+            <div class="logo">
+            <a href="#"><img src="assets/logo.png" alt="img" height="70"></a>
+        </div>
+
+            <div class="signup">
+                <form>
+                    <label for="chk" aria-hidden="true" title="Click Sign up/login">Sign up</label>
+                    <input type="text" name="txt" placeholder="User name" required="">
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="password" name="pswd" placeholder="Password" required="">
+                    <button title="Sign up">Sign up</button>
+                </form>
+            </div>
+
+            <div class="login">
+                <form class="login1">
+                    <label for="chk" aria-hidden="true" title="Click to Login">Login</label>
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="password" name="pswd" placeholder="Password" id="myInput" required="">
+                    <label for="Show" class="show" aria-hidden="true" title="Show Password">Show Password</label>
+                    <button class="Forget" title="Login">Login</button>
+                    <a class="Forget" id="fp" href="forgetpassword.html"
+                        title="Lets forget the Password if you want">Forgot Password?</a>
+
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<section>
+    <!-- picture fade animation  -->
+    <div class="img">
+        <div class="slider">
+        </div>
+    </div>
+    <!-- <a href="https://ahkamboh.github.io/website-design-fully-responsive/assets/poets.html"> -->
+    <!-- <button class="button"><span>Explore More </span></button></a> -->
+</section>
+<!-- Password vaildataion Notification code in js -->
+<script>
+    function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+</body>
+
+</html>
